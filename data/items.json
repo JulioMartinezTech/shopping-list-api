@@ -1,0 +1,187 @@
+[
+  {
+    "name": "Cerveza Suave Steinburg",
+    "image_url": "https://prod-mercadona.imgix.net/images/e566367824b8fe4185055aedb4d83593.jpg?fit=crop&h=600&w=600",
+    "price": 3.6
+  },
+  {
+    "name": "Cerveza Radler Steinburg con zumo natural de limón",
+    "image_url": "https://prod-mercadona.imgix.net/images/8d2de40a6c7770e50827fa5994b67969.jpg?fit=crop&h=600&w=600",
+    "price": 4.92
+  },
+  {
+    "name": "Pollo entero",
+    "image_url": "https://prod-mercadona.imgix.net/images/02e37939734cbf0487b769ee91955b93.jpg?fit=crop&h=600&w=600",
+    "price": 6.17
+  },
+  {
+    "name": "Refresco cola Hacendado",
+    "image_url": "https://prod-mercadona.imgix.net/images/d94535e22416fe4321a4eaa3f76312fc.jpg?fit=crop&h=600&w=600",
+    "price": 0.75
+  },
+  {
+    "name": "Alas de pollo adobadas picantes",
+    "image_url": "https://prod-mercadona.imgix.net/images/c1b65ce117d07f298cb37eb041904610.jpg?fit=crop&h=600&w=600",
+    "price": 3.33
+  },
+  {
+    "name": "Limpiador Potente Bosque Verde cal y óxido con pistola",
+    "image_url": "https://prod-mercadona.imgix.net/images/113f28e5e64bd3f934bc4227fd5854e6.jpg?fit=crop&h=600&w=600",
+    "price": 1.65
+  },
+  {
+    "name": "Queso lonchas tierno de vaca Entrepinares",
+    "image_url": "https://prod-mercadona.imgix.net/images/90ac57caeeaf61e606abe7a6457be94c.jpg?fit=crop&h=600&w=600",
+    "price": 2.55
+  },
+  {
+    "name": "Bacón Hacendado cintas",
+    "image_url": "https://prod-mercadona.imgix.net/images/4bc800b57ae22a3a9d75db8e38350cb7.jpg?fit=crop&h=600&w=600",
+    "price": 2.3
+  },
+  {
+    "name": "Maxi pavo Hacendado finas lonchas",
+    "image_url": "https://prod-mercadona.imgix.net/images/fe632da70c5721e8f5b621b1c386a4eb.jpg?fit=crop&h=600&w=600",
+    "price": 2.95
+  },
+  {
+    "name": "Zumo de clementina Hacendado",
+    "image_url": "https://prod-mercadona.imgix.net/images/cd85e354252f29613f03a2f21d828ccc.jpg?fit=crop&h=600&w=600",
+    "price": 1.7
+  },
+  {
+    "name": "Zumo de naranja Hacendado",
+    "image_url": "https://prod-mercadona.imgix.net/images/2c88a68248960ecc2c85f3dabd1e22da.jpg?fit=crop&h=600&w=600",
+    "price": 2
+  },
+  {
+    "name": "Film Transparente Bosque Verde con sierra deslizante",
+    "image_url": "https://prod-mercadona.imgix.net/images/2edf6e6d627c5e1f86efa0519b06761c.jpg?fit=crop&h=600&w=600",
+    "price": 1.85
+  },
+  {
+    "name": "Papel de Aluminio Bosque Verde",
+    "image_url": "https://prod-mercadona.imgix.net/images/efcf89445e5bc8d8962ca09286252e7e.jpg?fit=crop&h=600&w=600",
+    "price": 2.15
+  },
+  {
+    "name": "Pan de molde 100% integral familiar Hacendado",
+    "image_url": "https://prod-mercadona.imgix.net/images/bb4bc87dd5cde05303b1e222c2131fb0.jpg?fit=crop&h=600&w=600",
+    "price": 1.18
+  },
+  {
+    "name": "Spaghetti Hacendado",
+    "image_url": "https://prod-mercadona.imgix.net/images/3a7e46ed332908a73cfe47f424e399c7.jpg?fit=crop&h=600&w=600",
+    "price": 1.2
+  },
+  {
+    "name": "Bacón ahumado La Selva lonchas",
+    "image_url": "https://prod-mercadona.imgix.net/images/48dd1aa17e4a34bbc6ee6b0ea170eb92.jpg?fit=crop&h=600&w=600",
+    "price": 2.2
+  },
+  {
+    "name": "Chorizo Pamplona extra Hacendado lonchas",
+    "image_url": "https://prod-mercadona.imgix.net/images/0c970bbd9ecdc4e0216f49729fbda2a2.jpg?fit=crop&h=600&w=600",
+    "price": 2.5
+  },
+  {
+    "name": "Media sandía baja en semillas",
+    "image_url": "https://prod-mercadona.imgix.net/images/c7da3b39e7cbb45876f62332e59dd98e.jpg?fit=crop&h=600&w=600",
+    "price": 4.52
+  },
+  {
+    "name": "Nata ligera para cocinar Hacendado",
+    "image_url": "https://prod-mercadona.imgix.net/images/a889e74c8124bd110a748bc3ac8df440.jpg?fit=crop&h=600&w=600",
+    "price": 1.75
+  },
+  {
+    "name": "Café soluble natural Nescafé classic",
+    "image_url": "https://prod-mercadona.imgix.net/images/011c52bd2a29733bceb91d6e3fe4bf2b.jpg?fit=crop&h=600&w=600",
+    "price": 4.95
+  },
+  {
+    "name": "Salsa Ranch Hacendado",
+    "image_url": "https://prod-mercadona.imgix.net/images/a2d702a98df2e597f718d77732ff9552.jpg?fit=crop&h=600&w=600",
+    "price": 1.35
+  },
+  {
+    "name": "Banderillas picantes Hacendado",
+    "image_url": "https://prod-mercadona.imgix.net/images/9cbb99cc40200fe9ea12c13e3cbb7b8c.jpg?fit=crop&h=600&w=600",
+    "price": 1.7
+  },
+  {
+    "name": "Arroz con leche Hacendado",
+    "image_url": "https://prod-mercadona.imgix.net/images/ecd6886e214a2cc49c2738e7155c1a48.jpg?fit=crop&h=600&w=600",
+    "price": 1.35
+  },
+  {
+    "name": "Ajo y Perejil Hacendado",
+    "image_url": "https://prod-mercadona.imgix.net/images/eb87b609baabad143d6cf74cebfc589e.jpg?fit=crop&h=600&w=600",
+    "price": 1.35
+  },
+  {
+    "name": "Mayonesa Hacendado",
+    "image_url": "https://prod-mercadona.imgix.net/images/09c3eab324fecf94913f2f4240184091.jpg?fit=crop&h=600&w=600",
+    "price": 1.4
+  },
+  {
+    "name": "Bífidus desnatado probiótico con piña Hacendado 0% m.g. 0% sin azúcares añadidos",
+    "image_url": "https://prod-mercadona.imgix.net/images/a09518ff022f5fd83d57619ef2701443.jpg?fit=crop&h=600&w=600",
+    "price": 1.25
+  },
+  {
+    "name": "Espinacas cortadas y lavadas",
+    "image_url": "https://prod-mercadona.imgix.net/images/652d843ed52e1271a7babf8d32e43d8f.jpg?fit=crop&h=600&w=600",
+    "price": 1.24
+  },
+  {
+    "name": "Jamón serrano gran reserva Costa Brava sin aditivos lonchas",
+    "image_url": "https://prod-mercadona.imgix.net/images/397ce752ca6a9b01f9829674a3d5876a.jpg?fit=crop&h=600&w=600",
+    "price": 2.3
+  },
+  {
+    "name": "Pizza barbacoa Hacendado",
+    "image_url": "https://prod-mercadona.imgix.net/images/9601cc63f4a6fca6845af8491e26eea7.jpg?fit=crop&h=600&w=600",
+    "price": 2.5
+  },
+  {
+    "name": "Pizza 4 quesos Hacendado",
+    "image_url": "https://prod-mercadona.imgix.net/images/06b26451e60e5a8b86b926c71df2ecc1.jpg?fit=crop&h=600&w=600",
+    "price": 2.9
+  },
+  {
+    "name": "3 Bocadillos",
+    "image_url": "https://prod-mercadona.imgix.net/images/073a9cdb8b55c15d05791f3380e31b28.jpg?fit=crop&h=600&w=600",
+    "price": 1.04
+  },
+  {
+    "name": "Banana",
+    "image_url": "https://prod-mercadona.imgix.net/images/69edef3541bbf3f4b7173c9d617a5698.jpg?fit=crop&h=600&w=600",
+    "price": 0.25
+  },
+  {
+    "name": "Detergente ropa Prendas Delicadas Bosque Verde líquido",
+    "image_url": "https://prod-mercadona.imgix.net/images/9797257703d2e4f77d7d846efbcd84e6.jpg?fit=crop&h=600&w=600",
+    "price": 2.5
+  },
+  {
+    "name": "Suavizante ropa Azul Bosque Verde concentrado",
+    "image_url": "https://prod-mercadona.imgix.net/images/7ba82fe12606fbea55210671392285d5.jpg?fit=crop&h=600&w=600",
+    "price": 1.8
+  },
+  {
+    "name": "Lavavajillas Ultra concentrado Bosque Verde lavado a mano",
+    "image_url": "https://prod-mercadona.imgix.net/images/30ccd8015874b0d2ed7b3b5b87a8cd25.jpg?fit=crop&h=600&w=600",
+    "price": 2
+  },
+  {
+    "name": "Papel higiénico Doble Rollo Bosque Verde",
+    "image_url": "https://prod-mercadona.imgix.net/images/2114d726e660470b9eea54e72125280a.jpg?fit=crop&h=600&w=600",
+    "price": 4.5
+  },
+  {
+    "name": "Papel Multiusos Resistente Bosque Verde",
+    "image_url": "https://prod-mercadona.imgix.net/images/68a9193c73346578a71a679044434f6f.jpg?fit=crop&h=600&w=600",
+    "price": 3.65
+  }
+]
