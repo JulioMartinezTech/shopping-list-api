@@ -1,8 +1,9 @@
 # db.py
 from sqlmodel import SQLModel, create_engine, Session
 from sqlalchemy import text
+import os
 
-DATABASE_URL = "postgresql://myuser:mypassword@localhost:5432/mydatabase"
+DATABASE_URL = os.getenv("DATABASE_URL")
 SCHEMA_NAME = "shopping"
 
 engine = create_engine(DATABASE_URL, echo=True)
