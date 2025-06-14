@@ -53,26 +53,26 @@ def list_products(session: Session = Depends(get_session)):
     return products
 
 @app.post("/shopping-list")
-def add_to_shopping_list(product_id: int, quantity: int = 1, session: Session = Depends(get_session)):
+def add_to_shopping_list(item: ItemInput, session: Session = Depends(get_session)):
     # Verificamos que el producto existe
-    product = session.get(Product, product_id)
+    product = session.get(Product, item.product_id)
     if not product:
         raise HTTPException(status_code=404, detail="Producto no encontrado")
 
     # Verificamos si el producto ya está en la lista para actualizar la cantidad
     existing_item = session.exec(
-        select(ShoppingListItem).where(ShoppingListItem.product_id == product_id)
+        select(ShoppingListItem).where(ShoppingListItem.product_id == item.product_id)
     ).first()
 
     if existing_item:
-        existing_item.quantity += quantity
+        existing_item.quantity += item.quantity
         session.add(existing_item)
         session.commit()
         session.refresh(existing_item)
         return existing_item
 
     # Si no existe, creamos nuevo item
-    item = ShoppingListItem(product_id=product_id, quantity=quantity)
+    item = ShoppingListItem(product_id=item.product_id, quantity=item.quantity)
     session.add(item)
     session.commit()
     session.refresh(item)
