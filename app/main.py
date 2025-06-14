@@ -5,8 +5,12 @@ from app.db import create_schema_and_tables, get_session
 from app.models import Product, ShoppingListItem
 from contextlib import asynccontextmanager
 from fastapi.middleware.cors import CORSMiddleware
+from pydantic import BaseModel
 
 
+class ItemInput(BaseModel):
+    product_id: int
+    quantity: int = 1
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
@@ -15,6 +19,7 @@ async def lifespan(app: FastAPI):
     print("Shutting down...")
 
 app = FastAPI(lifespan=lifespan)
+
 
 # Configuración de CORS
 app.add_middleware(
@@ -73,6 +78,33 @@ def add_to_shopping_list(product_id: int, quantity: int = 1, session: Session = 
     session.refresh(item)
     return item
 
+@app.post("/shopping-list/bulk")
+def add_multiple_items(items: list[ItemInput], session: Session = Depends(get_session)):
+    added_items = []
+
+    for item in items:
+        product = session.get(Product, item.product_id)
+        if not product:
+            continue  # O puedes levantar una excepción si prefieres
+
+        existing_item = session.exec(
+            select(ShoppingListItem).where(ShoppingListItem.product_id == item.product_id)
+        ).first()
+
+        if existing_item:
+            existing_item.quantity += item.quantity
+            session.add(existing_item)
+            session.commit()
+            session.refresh(existing_item)
+            added_items.append(existing_item)
+        else:
+            new_item = ShoppingListItem(product_id=item.product_id, quantity=item.quantity)
+            session.add(new_item)
+            session.commit()
+            session.refresh(new_item)
+            added_items.append(new_item)
+
+    return added_items
 
 @app.get("/shopping-list")
 def get_shopping_list(session: Session = Depends(get_session)):
