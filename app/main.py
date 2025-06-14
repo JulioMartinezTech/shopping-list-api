@@ -65,7 +65,7 @@ def add_to_shopping_list(item: ItemInput, session: Session = Depends(get_session
     ).first()
 
     if existing_item:
-        existing_item.quantity += item.quantity
+        existing_item.quantity = item.quantity
         session.add(existing_item)
         session.commit()
         session.refresh(existing_item)
